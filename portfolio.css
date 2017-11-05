@@ -43,8 +43,8 @@ body {
 .card > img {
   margin-bottom: .75rem;
   height: 280px;
-  border: 1px solid black;
-  border-radius: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
 }
 
 .card-text {
