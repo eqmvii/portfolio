@@ -1,9 +1,17 @@
-body {
-  min-height: 75rem; /* Can be removed; just added for demo purposes */
+#my-splash-image {
+  background-image: url(./img/battlestation.jpg);
+  height: 500px;
+  background-color: rgb(50, 51, 48);
+  background-attachment: fixed;
+  background-position: center; 
 }
 
 .navbar {
   margin-bottom: 0;
+}
+
+.section-title {
+  color: black;
 }
 
 .jumbotron {
@@ -26,25 +34,38 @@ body {
 }
 
 .album {
-  min-height: 50rem; /* Can be removed; just added for demo purposes */
   padding-top: 3rem;
   padding-bottom: 3rem;
   background-color: #f7f7f7;
 }
 
+/* Make single columns at smaller screen sizes */
+@media screen and (max-width: 699px){
 .card {
   float: left;
-  width: 33.333%;
+  /*width: 33.333%;*/
+  width: 100%;
   padding: .75rem;
   margin-bottom: 2rem;
   border: 0;
 }
+}
+
+@media screen and (min-width: 700px){
+  .card {
+    float: left;
+    width: 33.333%;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+  }
+  }
 
 .card > img {
   margin-bottom: .75rem;
-  height: 280px;
-  border: 2px solid black;
-  border-radius: 8px;
+  width: 100%;
+  border: 1px solid #2a2a2e;
+  border-radius: 2%;
 }
 
 .card-text {
@@ -63,4 +84,5 @@ footer p {
 .headshot {
   border-radius: 50%;
   height: 150px;
+  margin-bottom: 6px;
 }

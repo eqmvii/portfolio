@@ -1,5 +1,17 @@
 <!doctype html>
 <html lang="en">
+
+<!--
+
+  TODO:
+  * Make pictures clickable
+  * Up the hover game
+  * AWS Hosting
+  * Google Analytics tracking 
+  * Better / closer web screenshots 
+
+-->
+
 <!-- Eric (Martin) Mancini's Portfolio -->
 <!-- edm34@cornell.edu | https://twitter.com/eqmvii | https://github.com/eqmvii -->
 <!-- Adapted from the Bootstrap V4 album template -->
@@ -20,66 +32,80 @@
 
   <!-- Custom styles for this template -->
   <link href="portfolio.css" rel="stylesheet">
+
+  <!-- font awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
   <header>
-    <div class="collapse bg-dark" id="navbarHeader">
 
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8 py-4">
-            <h4 class="text-white">About</h4>
-            <p class="text-muted">Eric Mancini is a web developer living outside of Philadelphia. Hire him for your internet company!</p>
-          </div>
-          <div class="col-sm-4 py-4">
-            <h4 class="text-white">Contact</h4>
-            <ul class="list-unstyled">
-              <li>
-                <a href="mailto:edm34@cornell.edu" class="text-white">edm34@cornell.edu</a>
-              </li>
-              <li>
-                <a href="https://github.com/eqmvii" class="text-white">github.com/eqmvii</a>
-              </li>
-              <li>
-                <a href="https://twitter.com/eqmvii" class="text-white">@eqmvii</a>
-              </li>
 
-            </ul>
-          </div>
-        </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Eric Mancini
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-target">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio-target">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-target">Contact</a>
+          </li>
+        </ul>
       </div>
-    </div>
-    <div class="navbar navbar-dark bg-dark">
-      <div class="container d-flex justify-content-between">
-        <a href="#" class="navbar-brand">Eric Mancini</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-    </div>
+    </nav>
+
+
+
   </header>
 
   <main role="main">
 
-    <section class="jumbotron text-center">
+    <!-- spalshy image -->
+    <div class="container-fluid" id="my-splash-image">
+    </div>
+
+    <section class="jumbotron text-center" id="about-target">
       <div class="container">
         <img src="img/eric.jpg" class="headshot img-thumbnail" />
-        <h1 class="jumbotron-heading">Hello!</h1>
-        <p class="lead text-muted">I'm Eric Mancini, a web developer and recovering corporate lawyer. These days I make full stack web applications
-          for fun and profit - below you can see my recent work!</p>
+        <h1 class="jumbotron-heading">Hi, I'm Eric!</h1>
+        <p class="lead text-muted">I'm a developer and recovering corporate lawyer from Philadelphia.</p>
+        <p class="lead text-muted">I code applications for fun and profit.
+        </p>
         <p>
-          <a href="mailto:edm34@cornell.edu" class="btn btn-info">Email me</a>
+          <a href="mailto:edm34@cornell.edu" class="btn btn-lg btn-danger">Email me</a>
         </p>
       </div>
     </section>
 
-    <div class="album text-muted">
+
+
+
+
+    <div class="album text-muted" id="portfolio-target">
       <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1 class="text-center section-title">Portfolio</h1>
+            <br />
+          </div>
+        </div>
 
         <div class="row">
+
 
           <div class="card">
             <img src="img/echat.png" alt="Card image cap">
@@ -96,6 +122,7 @@
               <li>Chatting</li>
             </ul>
           </div>
+
 
           <div class="card">
             <img src="img/funmoney.png" alt="Project one image">
@@ -212,20 +239,20 @@
           </div>
 
           <div class="card">
-              <img src="img/wedding.jpg" alt="Project one image">
-              <p class="card-text text-center">
-                <a href="https://eqmvii.github.io/weddingsite/public/index.html">See Website</a> |
-                <a href="https://github.com/eqmvii/weddingsite">Source Code</a>
-              </p>
-  
-              <h3 class="text-center">Save the Date</h3>
-              <p class="card-text">This helps you save the date</p>
-              <ul class="card-text">
-                <li>Photoshop</li>
-                <li>Love</li>
-                <li>Time</li>
-              </ul>
-            </div>
+            <img src="img/wedding.jpg" alt="Project one image">
+            <p class="card-text text-center">
+              <a href="https://eqmvii.github.io/weddingsite/public/index.html">See Website</a> |
+              <a href="https://github.com/eqmvii/weddingsite">Source Code</a>
+            </p>
+
+            <h3 class="text-center">Save the Date</h3>
+            <p class="card-text">This helps you save the date</p>
+            <ul class="card-text">
+              <li>Photoshop</li>
+              <li>Love</li>
+              <li>Time</li>
+            </ul>
+          </div>
 
           <div class="card">
             <img src="img/recipe.jpg" alt="Project one image">
@@ -279,19 +306,19 @@
 
 
           <div class="card">
-              <img src="img/poe.jpg" alt="Card image cap">
-              <p class="card-text text-center">
-                <a href="https://github.com/eqmvii/poeindexertest">Source Code</a>
-              </p>
-              <h3 class="text-center">Path of Exile Trade Indexer</h3>
-              <p class="card-text">You use an API to search for items!</p>
-              <ul class="card-text">
-                <li>Capitalism</li>
-                <li>Python</li>
-                <li>APIs</li>
-                <li>Exalted Orbs</li>
-              </ul>
-            </div>
+            <img src="img/poe.jpg" alt="Card image cap">
+            <p class="card-text text-center">
+              <a href="https://github.com/eqmvii/poeindexertest">Source Code</a>
+            </p>
+            <h3 class="text-center">Path of Exile Trade Indexer</h3>
+            <p class="card-text">You use an API to search for items!</p>
+            <ul class="card-text">
+              <li>Capitalism</li>
+              <li>Python</li>
+              <li>APIs</li>
+              <li>Exalted Orbs</li>
+            </ul>
+          </div>
 
           <div class="card">
             <img src="img/blackjack.jpg" alt="Card image cap">
@@ -347,15 +374,43 @@
       </div>
     </div>
 
+    <div class="bg-dark" id="contact-target">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9 py-4">
+            <h4 class="text-white">Eric Mancini</h4>
+          </div>
+          <div class="col-sm-3 py-4">
+            <ul class="list-unstyled">
+              <li>
+                <a href="mailto:edm34@cornell.edu" class="text-white">
+                  <i class="fa fa-envelope" aria-hidden="true"></i> edm34@cornell.edu</a>
+              </li>
+              <li>
+                <a href="https://github.com/eqmvii" class="text-white">
+                  <i class="fa fa-github" aria-hidden="true"></i> github.com/eqmvii</a>
+              </li>
+              <li>
+                <a href="https://twitter.com/eqmvii" class="text-white">
+                  <i class="fa fa-twitter" aria-hidden="true"></i> @eqmvii</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end contact container -->
+
+
   </main>
+
 
   <footer class="text-muted">
     <div class="container">
-      <p class="float-right">
+      <p class="text-center">
         <a href="#">Back to top</a>
       </p>
-      <p>&copy;
-        <a href="https://github.com/eqmvii"></a>Eric Mancini 2017</p>
     </div>
   </footer>
 
