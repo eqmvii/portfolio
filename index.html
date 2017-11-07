@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+
+  TODO:
+  * Make pictures clickable
+  * Up the hover game
+  * AWS Hosting
+  * Google Analytics tracking 
+  * Better / closer web screenshots 
+
+-->
+
+<!-- Eric (Martin) Mancini's Portfolio -->
+<!-- edm34@cornell.edu | https://twitter.com/eqmvii | https://github.com/eqmvii -->
+<!-- Adapted from the Bootstrap V4 album template -->
+
+<head>
+  <!-- TODO: Add Google Analytics -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Eric Mancini's Portfolio">
+  <meta name="author" content="Eric Mancini">
+  <!-- TODO: Change the favicon -->
+  <link rel="icon" href="favicon.ico">
+
+  <title>Eric Mancini</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="portfolio.css" rel="stylesheet">
+
+  <!-- font awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <header>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Eric Mancini
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-target">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio-target">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-target">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+  </header>
+
+  <main role="main">
+
+    <!-- spalshy image -->
+    <div class="container-fluid" id="my-splash-image-top">
+    </div>
+
+    <section class="jumbotron text-center" id="about-target">
+      <div class="container">
+        <img src="img/eric.jpg" class="headshot img-thumbnail" />
+        <h1 class="jumbotron-heading">Hi, I'm Eric!</h1>
+        <p class="lead text-muted">I'm a developer and recovering corporate lawyer from Philadelphia. I make web applications. </p>
+
+
+        <a href="mailto:edm34@cornell.edu">
+          <i class="fa fa-envelope" aria-hidden="true"></i> edm34@cornell.edu</a> |
+
+        <a href="https://github.com/eqmvii">
+          <i class="fa fa-github" aria-hidden="true"></i> github.com/eqmvii</a> |
+
+        <a href="https://twitter.com/eqmvii">
+          <i class="fa fa-twitter" aria-hidden="true"></i> @eqmvii</a>
+
+
+      </div>
+    </section>
+
+    <div class="album text-muted" id="portfolio-target">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="space-300px-above"></div>
+            <h1 class="text-center section-title">Portfolio</h1>
+            <h4 class="text-center">Some of my recent projects and their codebases</h4>
+            <div class="space-300px-above"></div>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="card">
+            <h3 class="text-center">Echat</h3>
+            <a href="https://eqmvii-echat.herokuapp.com">
+              <img src="img/echat.png" alt="Card image cap">
+            </a>
+            <p class="card-text text-center">
+              <a href="https://eqmvii-echat.herokuapp.com">See App</a> |
+              <a href="https://github.com/eqmvii/echat">Source Code</a>
+            </p>
+            <p class="card-text">Live chat application built with:</p>
+            <ul class="card-text">
+              <li>React</li>
+              <li>Node.js/Express</li>
+              <li>PostgreSQL</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3 class="text-center">Fun Money</h3>
+            <a href="https://funmoney.herokuapp.com/">
+              <img src="img/funmoney.png" alt="Project one image">
+            </a>
+            <p class="card-text text-center">
+              <a href="https://funmoney.herokuapp.com/">See App</a> |
+              <a href="https://github.com/eqmvii/funmoney">Source Code</a>
+            </p>
+            <p class="card-text">Fantasy portfolio site allowing users to make an account and trade stocks with $10,000 in fake money. Built over
+              the summer with my wife using:</p>
+            <ul class="card-text">
+              <li>Python/Flask/Jinja2</li>
+              <li>JavaScript</li>
+              <li>PostgreSQL/SQLAlchemy</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3 class="text-center">MarketWatch</h3>
+            <a href="https://prices-eve.herokuapp.com">
+              <img src="img/evemarket.png" alt="Card image cap">
+            </a>
+            <p class="card-text text-center">
+              <a href="https://prices-eve.herokuapp.com">See App</a> |
+              <a href="https://github.com/eqmvii/eve-simple-price-checker">Source Code</a>
+            </p>
+            <p class="card-text">A snapshot of EVE Online's player-driven market. Processes over 300,000 orders to calculate the highest buy and
+              lowest sell prices for items selected by the user for their dashboard. Built with:</p>
+            <ul class="card-text">
+              <li>React</li>
+              <li>EVE Online
+                <a href="https://esi.tech.ccp.is/latest/">Swagger API</a>
+              </li>
+              <li>Node.js/Express</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3 class="text-center">Simon</h3>
+            <a href="https://codepen.io/eqmvii/full/eWJPEO/">
+              <img src="img/simon.png" alt="Card image cap">
+            </a>
+            <p class="card-text text-center">
+              <a href="https://codepen.io/eqmvii/full/eWJPEO/">Play Game</a> |
+              <a href="https://github.com/eqmvii/simon">Source Code</a>
+            </p>
+            <p class="card-text">Simon Says memory game built using vanilla JavaScript.</p>
+
+          </div>
+
+
+          <div class="card">
+            <h3 class="text-center">Business Mockup</h3>
+            <a href="https://eqmvii.github.io/business-website-sample/">
+              <img src="img/businesswebsite.jpg" alt="Card image cap">
+            </a>
+            <p class="card-text text-center">
+              <a href="https://eqmvii.github.io/business-website-sample/">See Website</a> |
+              <a href="https://github.com/eqmvii/business-website-sample">Source Code</a>
+            </p>
+            <p class="card-text">A mockup of a 'trendy' business website.</p>
+          </div>
+
+
+          <div class="card">
+            <h3 class="text-center">Tic-Tac-Toe</h3>
+            <a href="https://codepen.io/eqmvii/full/YVyjrg/">
+              <img src="img/tictactoe.png" alt="Card image cap">
+            </a>
+            <p class="card-text text-center">
+              <a href="https://codepen.io/eqmvii/full/YVyjrg/">Play Game</a> |
+              <a href="https://github.com/eqmvii/tictactoe">Source Code</a>
+            </p>
+            <p class="card-text">Vanilla JavaScript Tic Tac Toe with customizable AI difficulty
+            </p>
+
+          </div>
+
+          <div class="card">
+            <h3 class="text-center">Full Stack Starter</h3>
+            <a href="https://github.com/eqmvii/EQMVII-PostgreSQL-React-Express-Starter">
+              <img src="img/starter.jpg" alt="Card image cap">
+            </a>
+            <p class="card-text text-center">
+              <a href="https://github.com/eqmvii/EQMVII-PostgreSQL-React-Express-Starter">Source Code</a>
+            </p>
+            <p class="card-text">React/Express/PostgreSQL starter project to quickly prototype a full-stack application and deploy it to Heroku.</p>
+
+          </div>
+
+          <div class="card">
+            <h3 class="text-center">Calculator</h3>
+            <a href="https://codepen.io/eqmvii/full/Qvbbvw/">
+              <img src="img/calculator.png" alt="Card image cap">
+            </a>
+            <p class="card-text text-center">
+              <a href="https://codepen.io/eqmvii/full/Qvbbvw/">See App</a> |
+              <a href="https://github.com/eqmvii/calculator">Source Code</a>
+            </p>
+            <p class="card-text">Vanilla JavaScript handheld calculator.</p>
+
+          </div>
+
+          <div class="card">
+            <h3 class="text-center">Save the Date</h3>
+            <a href="https://eqmvii.github.io/weddingsite/public/index.html">
+              <img src="img/wedding.jpg" alt="Project one image">
+            </a>
+            <p class="card-text text-center">
+              <a href="https://eqmvii.github.io/weddingsite/public/index.html">See Website</a> |
+              <a href="https://github.com/eqmvii/weddingsite">Source Code</a>
+            </p>
+            <p class="card-text">My wedding's save the date website.</p>
+          </div>
+
+          <div class="card">
+            <h3 class="text-center">React Recipe Box</h3>
+            <a href="https://eqmvii-recipes-full-stack.herokuapp.com">
+              <img src="img/recipe.jpg" alt="Project one image">
+            </a>
+            <p class="card-text text-center">
+              <a href="https://eqmvii-recipes-full-stack.herokuapp.com">See App</a> |
+              <a href="https://github.com/eqmvii/test-full-stack-recipe-box">Source Code</a>
+            </p>
+            <p class="card-text">The "to-do" app I used to learn a new tech stack. Made with:</p>
+            <ul class="card-text">
+              <li>React</li>
+              <li>Node.js/Express</li>
+              <li>PostgreSQL</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3 class="text-center">Weather Viewer</h3>
+            <a href="https://eqmvii.github.io/WeatherApp/weather.html">
+              <img src="img/weather.jpg" alt="Card image cap">
+            </a>
+            <p class="card-text text-center">
+              <a href="https://eqmvii.github.io/WeatherApp/weather.html">See App</a> |
+              <a href="https://github.com/eqmvii/WeatherApp">Source Code</a>
+            </p>
+            <p class="card-text">Get local weather information or search for it in a different location. Images for various types of weather made
+              lovingly by hand in MSPaint.</p>
+          </div>
+
+          <div class="card">
+            <h3 class="text-center">Pomodoro Clock</h3>
+            <a href="https://codepen.io/eqmvii/full/JNdNYN/">
+              <img src="img/pomodoro.jpg" alt="Card image cap">
+            </a>
+            <p class="card-text text-center">
+              <a href="https://codepen.io/eqmvii/full/JNdNYN/">See App</a> |
+              <a href="https://github.com/eqmvii/pomodoro">Source Code</a>
+            </p>
+            <p class="card-text">A productivity tool for timing work/break cycles.</p>
+          </div>
+
+
+          <div class="card">
+            <h3 class="text-center">Path of Exile Indexer</h3>
+            <a href="https://github.com/eqmvii/poeindexertest">
+              <img src="img/poe.jpg" alt="Card image cap">
+            </a>
+            <p class="card-text text-center">
+              <a href="https://github.com/eqmvii/poeindexertest">Source Code</a>
+            </p>
+            <p class="card-text">Uses the Path of Exile stashes API to search for items available for trade.</p>
+          </div>
+
+          <div class="card">
+            <h3 class="text-center">JavaScript Blackjack</h3>
+            <a href="https://codepen.io/eqmvii/full/GmRmZa/">
+              <img src="img/blackjack.jpg" alt="Card image cap">
+            </a>
+            <p class="card-text text-center">
+              <a href="https://codepen.io/eqmvii/full/GmRmZa/">See App</a> |
+              <a href="https://github.com/eqmvii/blackjack">Source Code</a>
+            </p>
+            <p class="card-text">Text based blackjack with simple strategy suggestions. One of my first projects!</p>
+          </div>
+
+
+          <div class="card">
+            <h3 class="text-center">TSL Exam Strategy</h3>
+            <a href="http://www.thesealocust.com">
+              <img src="img/tsl.jpg" alt="Card image cap">
+            </a>
+            <p class="card-text text-center">
+              <a href="http://www.thesealocust.com">See Website</a>
+            </p>
+            <p class="card-text">WordPress website for my day job, and my entry into the world of web development</p>
+          </div>
+
+          <div class="card">
+            <h3 class="text-center">EVE type_id matcher</h3>
+            <a href="https://github.com/eqmvii/typeid-name-generator">
+              <img src="img/typeid.jpg" alt="Card image cap">
+            </a>
+            <p class="card-text text-center">
+              <a href="https://github.com/eqmvii/typeid-name-generator">Source Code</a>
+            </p>
+            <p class="card-text">A Node.js script that uses the EVE API to match name and type_id properties for ~36,000 database entries.</p>
+
+
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- spalshy image -->
+    <div class="container-fluid" id="my-splash-image-bottom">
+    </div>
+
+
+
+
+  </main>
+
+
+  <div class="text-muted">
+    <div class="bg-dark" id="contact-target">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9 py-4">
+            <h4 class="text-white">Eric Mancini</h4>
+          </div>
+          <div class="col-sm-3 py-4">
+            <ul class="list-unstyled">
+              <li>
+                <a href="mailto:edm34@cornell.edu" class="text-white">
+                  <i class="fa fa-envelope" aria-hidden="true"></i> edm34@cornell.edu</a>
+              </li>
+              <li>
+                <a href="https://github.com/eqmvii" class="text-white">
+                  <i class="fa fa-github" aria-hidden="true"></i> github.com/eqmvii</a>
+              </li>
+              <li>
+                <a href="https://twitter.com/eqmvii" class="text-white">
+                  <i class="fa fa-twitter" aria-hidden="true"></i> @eqmvii</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end contact container -->
+
+  </div>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="bootstrap/assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <script src="bootstrap/assets/js/vendor/popper.min.js"></script>
+  <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+  </script>
+</body>
+
+</html>
