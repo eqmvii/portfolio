@@ -10,21 +10,7 @@ h1 h2 h3 h4 h5 h6 {
   font-family: 'Montserrat', sans-serif;
 }
 
-#my-splash-image-top {
-  background-image: url(./img/battlestation.jpg);
-  height: 400px;
-  background-color: rgb(50, 51, 48);
-  background-attachment: fixed;
-  background-position: center; 
-}
 
-#my-splash-image-bottom {
-  background-image: url(./img/waterfall.jpg);
-  height: 700px;
-  background-color: rgb(50, 51, 48);
-  background-attachment: fixed;
-  background-position: center; 
-}
 
 .navbar {
   margin-bottom: 0;
@@ -85,6 +71,23 @@ div.card > h3 {
     box-shadow: 0 4px 8px 0 rgb(88, 125, 182), 0 6px 20px 0 rgb(88, 125, 182);       
 
   }
+
+  #my-splash-image-top {
+    background-image: url(./img/battlestation.jpg);
+    height: 400px;
+    background-color: rgb(50, 51, 48);
+    background-attachment: fixed;
+    background-position: center; 
+  }
+  
+  #my-splash-image-bottom {
+    background-image: url(./img/waterfall.jpg);
+    height: 700px;
+    background-color: rgb(50, 51, 48);
+    background-attachment: fixed;
+    background-position: center; 
+  }
+
   }
 
   /* Make single columns at smaller screen sizes */
@@ -96,6 +99,15 @@ div.card > h3 {
     padding: .75rem;
     margin-bottom: 2rem;
     border: 0;
+    
+  }
+
+  #my-splash-image-top {
+    visibility: hidden;
+  }
+  
+  #my-splash-image-bottom {
+    visibility: hidden;
     
   }
   }
