@@ -1,5 +1,7 @@
 # Eric Mancini's Portfolio
 
-Build with bootstrap v4 beta 
+Live: https://eqmvii.github.io/portfolio/ 
 
-Repo includes all bootstrap source code
+Built with bootstrap v4 beta 
+
+
