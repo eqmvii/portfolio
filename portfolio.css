@@ -58,11 +58,11 @@ div.card > h3 {
 @media screen and (min-width: 700px){
   .card {
     float: left;
-    width: 31.3%;
-    padding: .75rem;
-    margin-bottom: 2rem;
+    width: 29%;
+    padding: 1.25rem;
+    margin-bottom: 5rem;
     padding-bottom: 2em;
-    margin-left: 2%;
+    margin-left: 4%;
     border: 0;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   }
