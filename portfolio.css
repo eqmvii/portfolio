@@ -6,8 +6,8 @@ body {
   font-family: 'Open Sans', sans-serif;  
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
+h1 {
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 .navbar {
@@ -20,8 +20,8 @@ h1, h2, h3, h4, h5, h6 {
     /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
 }
 
-.card > h2 {
-  color: rgb(12, 5, 110);  
+.card > h3 {
+  color: rgb(9, 5, 59);  
 }
 
 .space-300px-above { 
