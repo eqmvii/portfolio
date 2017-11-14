@@ -85,10 +85,11 @@ div.card > h3 {
   
   #my-splash-image-bottom {
     background-image: url(./img/waterfall.jpg);
-    height: 700px;
+    height: 600px;
     background-color: rgb(50, 51, 48);
     background-attachment: fixed;
-    background-position: center; 
+    background-position: 0% 120%; 
+    background-repeat: no-repeat;
   }
 
   }
