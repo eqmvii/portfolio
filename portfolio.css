@@ -14,6 +14,11 @@ h1 {
   margin-bottom: 0;
 }
 
+.abouticons {
+  /* font-size: 22px !important; */
+  font-size: 1.2em !important;
+}
+
 /* TODO: Redo this with sass variables are great */
 .section-title {
     color: rgb(12, 5, 110);
@@ -80,7 +85,8 @@ div.card > h3 {
     height: 400px;
     background-color: rgb(50, 51, 48);
     background-attachment: fixed;
-    background-position: center; 
+    background-position: 0% 10%; 
+    background-repeat: no-repeat;    
   }
   
   #my-splash-image-bottom {
@@ -131,4 +137,8 @@ div.card > h3 {
   border-radius: 50%;
   height: 150px;
   margin-bottom: 20px;
+}
+
+a:hover {
+  /* text-decoration: none; */
 }
