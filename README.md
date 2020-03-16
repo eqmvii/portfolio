@@ -1,7 +1,7 @@
 # Eric Mancini's Portfolio
 
-Live: https://eqmvii.github.io/portfolio/ 
+Live: https://eqmvii.github.io/portfolio/
 
-Built with bootstrap v4 beta 
+Originally built in 2017 with bootstrap v4 beta
 
 
